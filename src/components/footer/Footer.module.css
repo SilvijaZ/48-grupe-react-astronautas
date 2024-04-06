@@ -1,0 +1,28 @@
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.socials > .socialLink{
+	color: grey;
+    margin: 8px;
+    justify-content: center;
+}
+
+.socials > .socialLink:hover{
+    color: rgb(75, 0, 141);
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
